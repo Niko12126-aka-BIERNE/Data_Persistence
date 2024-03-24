@@ -9,7 +9,7 @@
       <w>140</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>SaleOrder
+    <panel_attributes>Order
 --
 date
 totalPrice
@@ -102,7 +102,7 @@ isPaid</panel_attributes>
       <h>150</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1..*
+m1=1
 m2=1
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -124,9 +124,9 @@ color</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1320</x>
+      <x>1310</x>
       <y>930</y>
-      <w>130</w>
+      <w>140</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Equipment
@@ -185,9 +185,9 @@ material</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1080</x>
+      <x>1020</x>
       <y>450</y>
-      <w>150</w>
+      <w>140</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Supplier
@@ -201,16 +201,16 @@ email</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1140</x>
+      <x>1080</x>
       <y>570</y>
-      <w>250</w>
+      <w>310</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=0..*
 &lt; supplyed from</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;210.0;50.0;210.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;270.0;50.0;270.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -258,7 +258,7 @@ creates v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1330</x>
+      <x>1310</x>
       <y>230</y>
       <w>140</w>
       <h>130</h>
@@ -273,7 +273,7 @@ warehouseID
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1390</x>
+      <x>1370</x>
       <y>350</y>
       <w>100</w>
       <h>120</h>
@@ -287,7 +287,7 @@ contains ^</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1330</x>
+      <x>1310</x>
       <y>450</y>
       <w>140</w>
       <h>130</h>
@@ -392,27 +392,27 @@ has ^</panel_attributes>
     <coordinates>
       <x>580</x>
       <y>260</y>
-      <w>770</w>
+      <w>750</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
 m2=1
 &lt; has</panel_attributes>
-    <additional_attributes>750.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>730.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>580</x>
       <y>300</y>
-      <w>610</w>
+      <w>550</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
 m2=1
 &lt; has</panel_attributes>
-    <additional_attributes>570.0;150.0;570.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>510.0;150.0;510.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
