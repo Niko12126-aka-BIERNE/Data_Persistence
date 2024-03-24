@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>532</y>
+      <x>882</x>
+      <y>672</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>532</y>
+      <x>315</x>
+      <y>672</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>21</x>
-      <y>532</y>
+      <x>35</x>
+      <y>672</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1239</x>
-      <y>532</y>
+      <x>1302</x>
+      <y>672</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>21</x>
-      <y>630</y>
+      <x>35</x>
+      <y>770</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -59,8 +59,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>630</y>
+      <x>315</x>
+      <y>770</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -70,8 +70,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>721</x>
-      <y>658</y>
+      <x>672</x>
+      <y>819</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -81,8 +81,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1239</x>
-      <y>630</y>
+      <x>1302</x>
+      <y>770</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -92,8 +92,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>21</x>
-      <y>728</y>
+      <x>35</x>
+      <y>868</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -103,8 +103,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>728</y>
+      <x>315</x>
+      <y>868</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -114,8 +114,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>665</x>
-      <y>1001</y>
+      <x>756</x>
+      <y>1141</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -125,8 +125,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1239</x>
-      <y>728</y>
+      <x>1302</x>
+      <y>868</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -136,8 +136,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>917</x>
-      <y>658</y>
+      <x>238</x>
+      <y>1092</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -147,8 +147,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>952</x>
-      <y>1001</y>
+      <x>1029</x>
+      <y>1141</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -158,8 +158,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1967</x>
-      <y>532</y>
+      <x>1946</x>
+      <y>672</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -169,8 +169,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1967</x>
-      <y>630</y>
+      <x>336</x>
+      <y>1092</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -180,8 +180,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1967</x>
-      <y>728</y>
+      <x>1946</x>
+      <y>868</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -191,8 +191,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1743</x>
-      <y>728</y>
+      <x>1806</x>
+      <y>868</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -202,19 +202,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2163</x>
-      <y>532</y>
-      <w>84</w>
-      <h>21</h>
-    </coordinates>
-    <panel_attributes>_:StockController_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>2163</x>
-      <y>630</y>
+      <x>441</x>
+      <y>1092</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -222,21 +211,10 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>2163</x>
-      <y>728</y>
-      <w>84</w>
-      <h>21</h>
-    </coordinates>
-    <panel_attributes>_:Stock_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>399</y>
+      <x>917</x>
+      <y>539</y>
       <w>441</w>
       <h>147</h>
     </coordinates>
@@ -250,8 +228,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>546</y>
+      <x>742</x>
+      <y>686</y>
       <w>203</w>
       <h>469</h>
     </coordinates>
@@ -262,20 +240,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>532</y>
-      <w>441</w>
+      <x>406</x>
+      <y>672</y>
+      <w>490</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1: employee = findEmployeeByEmployeeID(employeeID): Employee</panel_attributes>
-    <additional_attributes>10.0;20.0;610.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;680.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
-      <y>546</y>
+      <x>357</x>
+      <y>686</y>
       <w>287</w>
       <h>98</h>
     </coordinates>
@@ -286,8 +264,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
-      <y>644</y>
+      <x>357</x>
+      <y>784</y>
       <w>105</w>
       <h>98</h>
     </coordinates>
@@ -298,8 +276,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>602</x>
-      <y>630</y>
+      <x>616</x>
+      <y>770</y>
       <w>84</w>
       <h>21</h>
     </coordinates>
@@ -309,8 +287,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
-      <y>532</y>
+      <x>959</x>
+      <y>672</y>
       <w>357</w>
       <h>28</h>
     </coordinates>
@@ -321,8 +299,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1281</x>
-      <y>546</y>
+      <x>1337</x>
+      <y>686</y>
       <w>301</w>
       <h>98</h>
     </coordinates>
@@ -333,8 +311,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1743</x>
-      <y>630</y>
+      <x>1806</x>
+      <y>770</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -344,8 +322,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1323</x>
-      <y>630</y>
+      <x>1386</x>
+      <y>770</y>
       <w>434</w>
       <h>28</h>
     </coordinates>
@@ -356,8 +334,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1785</x>
-      <y>644</y>
+      <x>1841</x>
+      <y>784</y>
       <w>119</w>
       <h>98</h>
     </coordinates>
@@ -368,8 +346,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1274</x>
-      <y>644</y>
+      <x>1337</x>
+      <y>784</y>
       <w>301</w>
       <h>98</h>
     </coordinates>
@@ -380,8 +358,8 @@
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1421</x>
-      <y>714</y>
+      <x>1484</x>
+      <y>854</y>
       <w>252</w>
       <h>49</h>
     </coordinates>
@@ -393,8 +371,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>861</x>
-      <y>546</y>
+      <x>938</x>
+      <y>686</y>
       <w>210</w>
       <h>469</h>
     </coordinates>
@@ -405,33 +383,35 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>637</x>
-      <y>546</y>
-      <w>217</w>
+      <x>651</x>
+      <y>686</y>
+      <w>266</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.3: addOrderLine(orderLine): void
-3.1.2: assignCustomer(customer): void</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;60.0;290.0;60.0;290.0;10.0</additional_attributes>
+3.1.2: assignCustomer(customer): void
+4.1.1: totalPrice = getTotalPrice(): double
+4.1.3: assignInvoice(invoice): void</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;40.0;360.0;40.0;360.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>504</y>
-      <w>791</w>
+      <x>77</x>
+      <y>644</y>
+      <w>840</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1: customer = findCustomerByCustomerID(customerID): Customer</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;20.0;1110.0;20.0;1110.0;40.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;20.0;1180.0;20.0;1180.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>546</y>
+      <x>77</x>
+      <y>686</y>
       <w>280</w>
       <h>98</h>
     </coordinates>
@@ -442,13 +422,98 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>644</y>
+      <x>77</x>
+      <y>784</y>
       <w>105</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1: &lt;&lt;create&gt;&gt;()</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>707</x>
+      <y>686</y>
+      <w>224</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.4: insertOrder(currOrder): void</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;120.0;300.0;120.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>833</y>
+      <w>434</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.4.2: insertOrderLines(currOrder.orderLines): void</panel_attributes>
+    <additional_attributes>10.0;370.0;10.0;120.0;600.0;120.0;600.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>938</x>
+      <y>644</y>
+      <w>1064</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.2: invoice = createInvoice(totalPrice): Inovice</panel_attributes>
+    <additional_attributes>1500.0;40.0;1500.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1981</x>
+      <y>686</y>
+      <w>140</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.2.1: &lt;&lt;create&gt;&gt;(totalPrice)</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>371</x>
+      <y>833</y>
+      <w>357</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.4.1: insertInvoice(invoice): void</panel_attributes>
+    <additional_attributes>10.0;370.0;10.0;160.0;490.0;160.0;490.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>833</y>
+      <w>273</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+4.1.4.3: updateQuantity(currOrder.orderlines): void</panel_attributes>
+    <additional_attributes>10.0;370.0;10.0;200.0;370.0;200.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>497</x>
+      <y>994</y>
+      <w>196</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Should updateQuantity() be called from a 
+stockController instead?
+bg=yellow</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
