@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>416</y>
+      <w>168</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>OrderController
+--
+- employeeController: EmployeeController
+- customerController: CustomerController
+- productController: ProductController
+- invoiceController: InvoiceController
+- orderDB: OrderDB
+- currOrder: Order
+--
++ &lt;&lt;create&gt;&gt;OrderController()
++ createOrder(employeeID: int): void
++ addProductToOrder(productNumber: int, quantity: int): boolean
++ assignCustomerToOrder(customerID: int): boolean
++ finishOrder(): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>436</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>EmployeeController
+--
+- employeeDB: EmployeeDB
+--
++ findEmployeeByEmployeeID(employeeID: int): Employee</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>44</x>
+      <y>436</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>CustomerController
+--
+- customerDB: CustomerDB
+--
++ findCustomerByCustomerID(customerID: int): Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>436</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>ProductController
+--
+- productDB: ProductDB
+--
++ findProductByProductNumber(productNumber: int): Product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1720</x>
+      <y>436</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>InvoiceController
+--
+
+--
++ createInvoice(totalPrice): Invoice</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>44</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+CustomerDBIF
+--
+
+--
++ findByCustomerID(customerID: int): Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+EmployeeDBIF
+--
+
+--
++ findByEmployeeID(employeeID: int): Employee</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+ProductDBIF
+--
+
+--
++ findByProductNumber(productNumber: int): Product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1436</x>
+      <y>568</y>
+      <w>208</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+PriceDBIF
+--
+
+--
++ findByProductNumberAndDate(productNumber: int, date: LocalDate): Price</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1752</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+InvoiceDBIF
+--
+
+--
++ insertInvoice(invoice: Invoice): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1956</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+StockDBIF
+--
+
+--
++ updateQuantity(orderLines: List&lt;OrderLine&gt;): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>772</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+OrderDBIF
+--
+
+--
++ insertOrder(order: Order): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>700</y>
+      <w>184</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>CustomerDB
+--
+- findByCustomerIdQ: String
+- findByCustomerIdPreparedStatement: PreparedStatement
+--
++ buildObject(rs: ResultSet): Customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>700</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>EmployeeDB
+--
+- findByEmployeeIdQ: String
+- findByEmployeeIdPreparedStatement: PreparedStatement
+--
++ buildObject(rs: ResultSet): Employee</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1196</x>
+      <y>700</y>
+      <w>168</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>ProductDB
+--
+- findByProductNumberQ: String
+- findByProductNumberPreparedStatement: PreparedStatement
+--
++ buildObject(rs: ResultSet): Product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1444</x>
+      <y>700</y>
+      <w>192</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>PriceDB
+--
+- findByProductNumberAndDateQ: String
+- findByProductNumberAndDatePreparedStatement: PreparedStatement
+--
++ buildObject(rs: ResultSet): Price</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1752</x>
+      <y>700</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>InvoiceDB
+--
+- insertInvoiceQ: String
+- insertInvoicePreparedStatement: PreparedStatement
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1956</x>
+      <y>700</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>StockDB
+--
+- updateQuantityQ: String
+- updateQuantityPreparedStatement: PreparedStatement
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>772</x>
+      <y>700</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>OrderDB
+--
+- insertOrderQ: String
+- insertOrderPreparedStatement: PreparedStatement
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>832</y>
+      <w>232</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+- customerID: int
+- firstName: String
+- lastName: String
+- phone: String
+--
++ &lt;&lt;create&gt;&gt;Customer(customerID: int, firstName: String, lastName: String, phone: String)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>268</x>
+      <y>832</y>
+      <w>192</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Employee
+--
+- employeeID: int
+- firstName: String
+- lastName: String
+--
++ &lt;&lt;create&gt;&gt;Employee(employeeID: int, firstName: String, lastName: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>832</y>
+      <w>208</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+- orderNumber: int
+- date: LocalDate
+- totalPrice: double
+- deliveryStatus: String
+- deliveryDate: LocalDate
+--
++ &lt;&lt;create&gt;&gt;Order(date: LocalDate, deliveryStatus: String, deliveryDate: LocalDate)
++ addOrderLine(orderLine: OrderLine): void
++ assignCustomer(customer: Customer): void
++ getTotalPrice(): double
++ assignInvoice(invoice: Invoice): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1144</x>
+      <y>832</y>
+      <w>276</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+- productNumber: int
+- name: String
+- barcode: String
+- countryOfOrigin: String
+- minStock: int
+--
++ &lt;&lt;create&gt;&gt;Product(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1444</x>
+      <y>832</y>
+      <w>192</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Price
+--
+- date: LocalDate
+- price: double
+--
++ &lt;&lt;create&gt;&gt;Price(date: LocalDate, price: double)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1688</x>
+      <y>832</y>
+      <w>224</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Invoice
+--
+- paymentDate: LocalDate
+- paymentAmount: double
+- isPaid: boolean
+--
++ &lt;&lt;create&gt;&gt;Invoice(paymentDate: LocalDate, paymentAmount: double, isPaid: boolean)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>568</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+OrderLineDBIF
+--
+
+--
++ insertOrderLines(orderLines: List&lt;OrderLine&gt;): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>700</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>OrderLineDB
+--
+- insertOrderLinesQ: String
+- insertOrderLinesPreparedStatement: PreparedStatement
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>832</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>OrderLine
+--
+- product: Product
+- quantity: int
+--
++ &lt;&lt;create&gt;&gt;OrderLine(product: Product, quantity: int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>896</x>
+      <y>968</y>
+      <w>332</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Clothing
+--
+- size: int
+- color: String
+--
++ &lt;&lt;create&gt;&gt;Clothing(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, size: int, color: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1048</y>
+      <w>364</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>Equipment
+--
+- type: String
+- description: String
+--
++ &lt;&lt;create&gt;&gt;Equipment(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, type: String, description: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1332</x>
+      <y>968</y>
+      <w>360</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>GunReplica
+--
+- calibre: double
+- material: String
+--
++ &lt;&lt;create&gt;&gt;Clothing(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, calibre: double, material: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>500</y>
+      <w>188</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>DBConnection
+--
+- connection: Connection
+- dbConnection: DBConnection
+/- driverClass: String/
+/- dbName: String/
+/- serverAddress: String/
+/- serverPort: String/
+/- userName: String/
+/- password: String/
+--
+/+ getInstance(): DBConnection/
++ startTransaction(): void
++ commitTransaction(): void
++ rollbackTransaction(): void
++ getConnection(): Connection
++ disconnection(): void
++ executeInsertWithIdentity(preparedStatement: PreparedStatement): int
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1180</x>
+      <y>896</y>
+      <w>12</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1372</x>
+      <y>896</y>
+      <w>12</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1276</x>
+      <y>896</y>
+      <w>12</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1276</x>
+      <y>764</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1276</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1276</x>
+      <y>500</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1148</x>
+      <y>612</y>
+      <w>56</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;370.0;120.0;370.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1124</x>
+      <y>612</y>
+      <w>356</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;420.0;870.0;420.0;870.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>612</y>
+      <w>688</w>
+      <h>188</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;450.0;1700.0;450.0;1700.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1076</x>
+      <y>612</y>
+      <w>916</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;480.0;2270.0;480.0;2270.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>612</y>
+      <w>60</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;370.0;10.0;370.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>612</y>
+      <w>340</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>830.0;10.0;830.0;420.0;10.0;420.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>612</y>
+      <w>628</w>
+      <h>188</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>1550.0;10.0;1550.0;450.0;10.0;450.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>612</y>
+      <w>876</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>2170.0;10.0;2170.0;480.0;10.0;480.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1360</x>
+      <y>728</y>
+      <w>92</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1536</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1536</x>
+      <y>764</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>904</x>
+      <y>472</y>
+      <w>304</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>740.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>884</x>
+      <y>400</y>
+      <w>920</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>2280.0;90.0;2280.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1828</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2028</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1732</x>
+      <y>500</y>
+      <w>12</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>912</x>
+      <y>684</y>
+      <w>868</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>2150.0;40.0;2150.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>672</y>
+      <w>1092</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>2710.0;70.0;2710.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>684</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0;300.0;10.0;300.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>356</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>632</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>764</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>356</x>
+      <y>764</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>488</y>
+      <w>232</w>
+      <h>352</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;860.0;10.0;10.0;560.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>436</x>
+      <y>472</y>
+      <w>312</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;760.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>400</y>
+      <w>648</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0;1600.0;10.0;1600.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>500</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>356</x>
+      <y>500</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>752</x>
+      <y>500</y>
+      <w>12</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>500</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
