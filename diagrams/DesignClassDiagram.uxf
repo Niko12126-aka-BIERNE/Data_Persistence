@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
+      <x>756</x>
       <y>416</y>
       <w>168</w>
       <h>88</h>
@@ -28,7 +28,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
+      <x>296</x>
       <y>436</y>
       <w>160</w>
       <h>68</h>
@@ -43,7 +43,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>44</x>
+      <x>60</x>
       <y>436</y>
       <w>160</w>
       <h>68</h>
@@ -58,7 +58,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
+      <x>1216</x>
       <y>436</y>
       <w>160</w>
       <h>68</h>
@@ -73,7 +73,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1720</x>
+      <x>1736</x>
       <y>436</y>
       <w>160</w>
       <h>68</h>
@@ -82,13 +82,13 @@
 --
 
 --
-+ createInvoice(totalPrice): Invoice</panel_attributes>
++ createInvoice(totalPrice: double): Invoice</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>44</x>
+      <x>60</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -104,7 +104,7 @@ CustomerDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
+      <x>296</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -120,7 +120,7 @@ EmployeeDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
+      <x>1216</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -136,7 +136,7 @@ ProductDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1436</x>
+      <x>1452</x>
       <y>568</y>
       <w>208</w>
       <h>68</h>
@@ -152,7 +152,7 @@ PriceDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1752</x>
+      <x>1768</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -168,7 +168,7 @@ InvoiceDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1956</x>
+      <x>1972</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -184,7 +184,7 @@ StockDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>772</x>
+      <x>788</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -200,7 +200,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>32</x>
+      <x>48</x>
       <y>700</y>
       <w>184</w>
       <h>68</h>
@@ -216,7 +216,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
+      <x>296</x>
       <y>700</y>
       <w>160</w>
       <h>68</h>
@@ -232,7 +232,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1196</x>
+      <x>1212</x>
       <y>700</y>
       <w>168</w>
       <h>68</h>
@@ -248,7 +248,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1444</x>
+      <x>1460</x>
       <y>700</y>
       <w>192</w>
       <h>68</h>
@@ -264,7 +264,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1752</x>
+      <x>1768</x>
       <y>700</y>
       <w>160</w>
       <h>68</h>
@@ -280,7 +280,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1956</x>
+      <x>1972</x>
       <y>700</y>
       <w>160</w>
       <h>68</h>
@@ -296,7 +296,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>772</x>
+      <x>788</x>
       <y>700</y>
       <w>160</w>
       <h>68</h>
@@ -312,7 +312,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>8</x>
+      <x>24</x>
       <y>832</y>
       <w>232</w>
       <h>68</h>
@@ -331,7 +331,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>268</x>
+      <x>284</x>
       <y>832</y>
       <w>192</w>
       <h>68</h>
@@ -348,7 +348,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
+      <x>736</x>
       <y>832</y>
       <w>208</w>
       <h>84</h>
@@ -371,7 +371,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1144</x>
+      <x>1160</x>
       <y>832</y>
       <w>276</w>
       <h>68</h>
@@ -390,7 +390,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1444</x>
+      <x>1460</x>
       <y>832</y>
       <w>192</w>
       <h>68</h>
@@ -406,7 +406,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1688</x>
+      <x>1704</x>
       <y>832</y>
       <w>224</w>
       <h>68</h>
@@ -423,7 +423,7 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>544</x>
+      <x>560</x>
       <y>568</y>
       <w>160</w>
       <h>68</h>
@@ -439,7 +439,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>544</x>
+      <x>560</x>
       <y>700</y>
       <w>160</w>
       <h>68</h>
@@ -455,7 +455,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>500</x>
+      <x>516</x>
       <y>832</y>
       <w>160</w>
       <h>68</h>
@@ -471,7 +471,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>896</x>
+      <x>912</x>
       <y>968</y>
       <w>332</w>
       <h>68</h>
@@ -487,7 +487,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1100</x>
+      <x>1116</x>
       <y>1048</y>
       <w>364</w>
       <h>68</h>
@@ -503,7 +503,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1332</x>
+      <x>1348</x>
       <y>968</y>
       <w>360</w>
       <h>68</h>
@@ -519,7 +519,7 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>972</x>
+      <x>988</x>
       <y>500</y>
       <w>188</w>
       <h>116</h>
@@ -550,7 +550,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
+      <x>1196</x>
       <y>896</y>
       <w>12</w>
       <h>80</h>
@@ -561,7 +561,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1372</x>
+      <x>1388</x>
       <y>896</y>
       <w>12</w>
       <h>80</h>
@@ -572,7 +572,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1276</x>
+      <x>1292</x>
       <y>896</y>
       <w>12</w>
       <h>160</h>
@@ -583,7 +583,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1276</x>
+      <x>1292</x>
       <y>764</y>
       <w>12</w>
       <h>76</h>
@@ -594,7 +594,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1276</x>
+      <x>1292</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -605,7 +605,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1276</x>
+      <x>1292</x>
       <y>500</y>
       <w>12</w>
       <h>76</h>
@@ -616,7 +616,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1148</x>
+      <x>1164</x>
       <y>612</y>
       <w>56</w>
       <h>156</h>
@@ -627,7 +627,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1124</x>
+      <x>1140</x>
       <y>612</y>
       <w>356</w>
       <h>176</h>
@@ -638,7 +638,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
+      <x>1116</x>
       <y>612</y>
       <w>688</w>
       <h>188</h>
@@ -649,7 +649,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1076</x>
+      <x>1092</x>
       <y>612</y>
       <w>916</w>
       <h>200</h>
@@ -660,7 +660,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>928</x>
+      <x>944</x>
       <y>612</y>
       <w>60</w>
       <h>156</h>
@@ -671,7 +671,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>672</x>
+      <x>688</x>
       <y>612</y>
       <w>340</w>
       <h>176</h>
@@ -682,7 +682,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>408</x>
+      <x>424</x>
       <y>612</y>
       <w>628</w>
       <h>188</h>
@@ -693,7 +693,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>184</x>
+      <x>200</x>
       <y>612</y>
       <w>876</w>
       <h>200</h>
@@ -704,7 +704,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1360</x>
+      <x>1376</x>
       <y>728</y>
       <w>92</w>
       <h>12</h>
@@ -715,7 +715,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1536</x>
+      <x>1552</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -726,7 +726,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1536</x>
+      <x>1552</x>
       <y>764</y>
       <w>12</w>
       <h>76</h>
@@ -737,7 +737,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
+      <x>920</x>
       <y>472</y>
       <w>304</w>
       <h>12</h>
@@ -748,7 +748,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>884</x>
+      <x>900</x>
       <y>400</y>
       <w>920</w>
       <h>44</h>
@@ -759,7 +759,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1828</x>
+      <x>1844</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -770,7 +770,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2028</x>
+      <x>2044</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -781,7 +781,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1732</x>
+      <x>1748</x>
       <y>500</y>
       <w>12</w>
       <h>340</h>
@@ -792,7 +792,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>912</x>
+      <x>928</x>
       <y>684</y>
       <w>868</w>
       <h>24</h>
@@ -803,7 +803,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
+      <x>912</x>
       <y>672</y>
       <w>1092</w>
       <h>36</h>
@@ -814,7 +814,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>676</x>
+      <x>692</x>
       <y>684</y>
       <w>128</w>
       <h>24</h>
@@ -825,7 +825,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>848</x>
+      <x>864</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -836,7 +836,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
+      <x>636</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -847,7 +847,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>356</x>
+      <x>372</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -858,7 +858,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
+      <x>136</x>
       <y>632</y>
       <w>12</w>
       <h>76</h>
@@ -869,7 +869,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
+      <x>136</x>
       <y>764</y>
       <w>12</w>
       <h>76</h>
@@ -880,7 +880,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>356</x>
+      <x>372</x>
       <y>764</y>
       <w>12</w>
       <h>76</h>
@@ -891,7 +891,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>516</x>
+      <x>532</x>
       <y>488</y>
       <w>232</w>
       <h>352</h>
@@ -902,7 +902,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>436</x>
+      <x>452</x>
       <y>472</y>
       <w>312</w>
       <h>12</h>
@@ -913,7 +913,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
+      <x>136</x>
       <y>400</y>
       <w>648</w>
       <h>44</h>
@@ -924,7 +924,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
+      <x>136</x>
       <y>500</y>
       <w>12</w>
       <h>76</h>
@@ -935,7 +935,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>356</x>
+      <x>372</x>
       <y>500</y>
       <w>12</w>
       <h>76</h>
@@ -946,7 +946,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>752</x>
+      <x>768</x>
       <y>500</y>
       <w>12</w>
       <h>340</h>
@@ -957,7 +957,7 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>848</x>
+      <x>864</x>
       <y>500</y>
       <w>12</w>
       <h>76</h>
