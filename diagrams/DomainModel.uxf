@@ -11,6 +11,7 @@
     </coordinates>
     <panel_attributes>Order
 --
+orderNumber
 date
 totalPrice
 deliveryStatus
@@ -28,6 +29,7 @@ deliveryDate
     </coordinates>
     <panel_attributes>Customer
 --
+customerID
 firstName
 lastName
 phone</panel_attributes>
@@ -57,6 +59,7 @@ has placed &gt;</panel_attributes>
     </coordinates>
     <panel_attributes>Product
 --
+productNumber
 name
 barcode
 countryOfOrigin
