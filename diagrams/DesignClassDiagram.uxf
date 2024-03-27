@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1830</x>
-      <y>440</y>
-      <w>420</w>
-      <h>220</h>
+      <x>1925</x>
+      <y>1134</y>
+      <w>294</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>OrderController
 --
@@ -28,10 +28,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>490</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1120</x>
+      <y>1169</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>EmployeeController
 --
@@ -44,10 +44,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>490</y>
-      <w>400</w>
-      <h>170</h>
+      <x>707</x>
+      <y>1169</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>CustomerController
 --
@@ -60,10 +60,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2980</x>
-      <y>490</y>
-      <w>400</w>
-      <h>170</h>
+      <x>2730</x>
+      <y>1169</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>ProductController
 --
@@ -76,10 +76,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4280</x>
-      <y>490</y>
-      <w>400</w>
-      <h>170</h>
+      <x>3640</x>
+      <y>1169</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>InvoiceController
 --
@@ -91,10 +91,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>707</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 CustomerDBIF
@@ -107,10 +107,10 @@ CustomerDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1120</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 EmployeeDBIF
@@ -123,10 +123,10 @@ EmployeeDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2980</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>2730</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 ProductDBIF
@@ -139,10 +139,10 @@ ProductDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3570</x>
-      <y>820</y>
-      <w>520</w>
-      <h>170</h>
+      <x>3143</x>
+      <y>1400</y>
+      <w>364</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 PriceDBIF
@@ -155,10 +155,10 @@ PriceDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4360</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>3696</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 InvoiceDBIF
@@ -171,10 +171,10 @@ InvoiceDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4870</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>4053</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 StockDBIF
@@ -187,10 +187,10 @@ StockDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1910</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1981</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 OrderDBIF
@@ -203,10 +203,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
-      <y>1150</y>
-      <w>460</w>
-      <h>170</h>
+      <x>686</x>
+      <y>1631</y>
+      <w>322</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>CustomerDB
 --
@@ -219,10 +219,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>1150</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1120</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>EmployeeDB
 --
@@ -235,10 +235,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2970</x>
-      <y>1150</y>
-      <w>420</w>
-      <h>170</h>
+      <x>2723</x>
+      <y>1631</y>
+      <w>294</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>ProductDB
 --
@@ -251,10 +251,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3590</x>
-      <y>1150</y>
-      <w>480</w>
-      <h>170</h>
+      <x>3157</x>
+      <y>1631</y>
+      <w>336</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>PriceDB
 --
@@ -267,10 +267,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4360</x>
-      <y>1150</y>
-      <w>400</w>
-      <h>170</h>
+      <x>3696</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>InvoiceDB
 --
@@ -283,10 +283,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4870</x>
-      <y>1150</y>
-      <w>400</w>
-      <h>170</h>
+      <x>4053</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>StockDB
 --
@@ -299,10 +299,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1910</x>
-      <y>1150</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1981</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>OrderDB
 --
@@ -315,10 +315,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>1480</y>
-      <w>580</w>
-      <h>170</h>
+      <x>644</x>
+      <y>1862</y>
+      <w>406</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Customer
 --
@@ -334,10 +334,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>1480</y>
-      <w>480</w>
-      <h>170</h>
+      <x>1099</x>
+      <y>1862</y>
+      <w>336</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Employee
 --
@@ -351,10 +351,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1780</x>
-      <y>1480</y>
-      <w>520</w>
-      <h>250</h>
+      <x>1890</x>
+      <y>1862</y>
+      <w>364</w>
+      <h>196</h>
     </coordinates>
     <panel_attributes>Order
 --
@@ -366,21 +366,23 @@ OrderDBIF
 - employee: Employee
 - customer: Customer
 - invoice: Invoice
+- orderLines: List&lt;OrderLine&gt;
 --
 + &lt;&lt;create&gt;&gt;Order(employee: Employee)
 + addOrderLine(orderLine: OrderLine): void
 + assignCustomer(customer: Customer): void
 + getTotalPrice(): double
++ increaseTotalPrice(amount: double): void
 + assignInvoice(invoice: Invoice): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2840</x>
-      <y>1480</y>
-      <w>690</w>
-      <h>170</h>
+      <x>2604</x>
+      <y>1862</y>
+      <w>532</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Product
 --
@@ -390,32 +392,35 @@ OrderDBIF
 - countryOfOrigin: String
 - minStock: int
 --
-+ &lt;&lt;create&gt;&gt;Product(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int)</panel_attributes>
++ &lt;&lt;create&gt;&gt;Product(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, price: Price)
++ getProductNumber(): int
++ getProductPrice(): double</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3590</x>
-      <y>1480</y>
-      <w>480</w>
-      <h>170</h>
+      <x>3157</x>
+      <y>1862</y>
+      <w>336</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Price
 --
 - date: LocalDate
 - price: double
 --
-+ &lt;&lt;create&gt;&gt;Price(date: LocalDate, price: double)</panel_attributes>
++ &lt;&lt;create&gt;&gt;Price(date: LocalDate, price: double)
++ getPrice(): double</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>4200</x>
-      <y>1480</y>
-      <w>560</w>
-      <h>170</h>
+      <x>3584</x>
+      <y>1862</y>
+      <w>392</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Invoice
 --
@@ -429,10 +434,10 @@ OrderDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1340</x>
-      <y>820</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1582</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 OrderLineDBIF
@@ -445,10 +450,10 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1340</x>
-      <y>1150</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1582</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>OrderLineDB
 --
@@ -461,74 +466,77 @@ OrderLineDBIF
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1230</x>
-      <y>1480</y>
-      <w>400</w>
-      <h>170</h>
+      <x>1505</x>
+      <y>1862</y>
+      <w>280</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>OrderLine
 --
 - product: Product
 - quantity: int
 --
-+ &lt;&lt;create&gt;&gt;OrderLine(product: Product, quantity: int)</panel_attributes>
++ &lt;&lt;create&gt;&gt;OrderLine(product: Product, quantity: int)
++ getProduct(): Product
++ getQuantity(): int
++ increaseQuantity(quantity: int): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2220</x>
-      <y>1820</y>
-      <w>830</w>
-      <h>170</h>
+      <x>2198</x>
+      <y>2100</y>
+      <w>581</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Clothing
 --
 - size: int
 - color: String
 --
-+ &lt;&lt;create&gt;&gt;Clothing(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, size: int, color: String)</panel_attributes>
++ &lt;&lt;create&gt;&gt;Clothing(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, price: Price, size: int, color: String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2730</x>
-      <y>2020</y>
-      <w>910</w>
-      <h>170</h>
+      <x>2555</x>
+      <y>2240</y>
+      <w>637</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>Equipment
 --
 - type: String
 - description: String
 --
-+ &lt;&lt;create&gt;&gt;Equipment(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, type: String, description: String)</panel_attributes>
++ &lt;&lt;create&gt;&gt;Equipment(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, price: Price, type: String, description: String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3310</x>
-      <y>1820</y>
-      <w>900</w>
-      <h>170</h>
+      <x>2961</x>
+      <y>2100</y>
+      <w>630</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>GunReplica
 --
 - calibre: double
 - material: String
 --
-+ &lt;&lt;create&gt;&gt;GunReplica(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, calibre: double, material: String)</panel_attributes>
++ &lt;&lt;create&gt;&gt;GunReplica(productNumber: int, name: String, barcode: String, countryOfOrigin: String, minStock: int, price: Price, calibre: double, material: String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2410</x>
-      <y>640</y>
-      <w>470</w>
-      <h>300</h>
+      <x>2331</x>
+      <y>1274</y>
+      <w>329</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>DBConnection
 --
@@ -557,10 +565,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2930</x>
-      <y>1640</y>
-      <w>30</w>
-      <h>200</h>
+      <x>2695</x>
+      <y>1974</y>
+      <w>21</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
@@ -568,10 +576,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3410</x>
-      <y>1640</y>
-      <w>30</w>
-      <h>200</h>
+      <x>3031</x>
+      <y>1974</y>
+      <w>21</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
@@ -579,10 +587,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3170</x>
-      <y>1640</y>
-      <w>30</w>
-      <h>400</h>
+      <x>2863</x>
+      <y>1974</y>
+      <w>21</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
@@ -590,10 +598,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3170</x>
-      <y>1310</y>
-      <w>30</w>
-      <h>190</h>
+      <x>2863</x>
+      <y>1743</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -601,10 +609,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3170</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>2863</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -612,10 +620,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3170</x>
-      <y>650</y>
-      <w>30</w>
-      <h>190</h>
+      <x>2863</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -623,10 +631,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2850</x>
-      <y>930</y>
-      <w>140</w>
-      <h>390</h>
+      <x>2639</x>
+      <y>1477</y>
+      <w>98</w>
+      <h>273</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;370.0;120.0;370.0</additional_attributes>
@@ -634,10 +642,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2790</x>
-      <y>930</y>
-      <w>890</w>
-      <h>440</h>
+      <x>2597</x>
+      <y>1477</y>
+      <w>623</w>
+      <h>308</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;420.0;870.0;420.0;870.0;390.0</additional_attributes>
@@ -645,10 +653,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2730</x>
-      <y>930</y>
-      <w>1720</w>
-      <h>470</h>
+      <x>2555</x>
+      <y>1477</y>
+      <w>1204</w>
+      <h>329</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;450.0;1700.0;450.0;1700.0;390.0</additional_attributes>
@@ -656,10 +664,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2670</x>
-      <y>930</y>
-      <w>2290</w>
-      <h>500</h>
+      <x>2513</x>
+      <y>1477</y>
+      <w>1603</w>
+      <h>350</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;480.0;2270.0;480.0;2270.0;390.0</additional_attributes>
@@ -667,10 +675,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2300</x>
-      <y>930</y>
-      <w>150</w>
-      <h>390</h>
+      <x>2254</x>
+      <y>1477</y>
+      <w>105</w>
+      <h>273</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>130.0;10.0;130.0;370.0;10.0;370.0</additional_attributes>
@@ -678,10 +686,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1660</x>
-      <y>930</y>
-      <w>850</w>
-      <h>440</h>
+      <x>1806</x>
+      <y>1477</y>
+      <w>595</w>
+      <h>308</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>830.0;10.0;830.0;420.0;10.0;420.0;10.0;390.0</additional_attributes>
@@ -689,10 +697,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>930</y>
-      <w>1570</w>
-      <h>470</h>
+      <x>1344</x>
+      <y>1477</y>
+      <w>1099</w>
+      <h>329</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>1550.0;10.0;1550.0;450.0;10.0;450.0;10.0;390.0</additional_attributes>
@@ -700,10 +708,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>930</y>
-      <w>2190</w>
-      <h>500</h>
+      <x>952</x>
+      <y>1477</y>
+      <w>1533</w>
+      <h>350</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>2170.0;10.0;2170.0;480.0;10.0;480.0;10.0;390.0</additional_attributes>
@@ -711,10 +719,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3380</x>
-      <y>1220</y>
-      <w>230</w>
-      <h>30</h>
+      <x>3010</x>
+      <y>1680</y>
+      <w>161</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
@@ -722,10 +730,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3820</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>3318</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -733,10 +741,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>3820</x>
-      <y>1310</y>
-      <w>30</w>
-      <h>190</h>
+      <x>3318</x>
+      <y>1743</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -744,10 +752,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2240</x>
-      <y>580</y>
-      <w>760</w>
-      <h>30</h>
+      <x>2212</x>
+      <y>1232</y>
+      <w>532</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>740.0;10.0;10.0;10.0</additional_attributes>
@@ -755,10 +763,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2190</x>
-      <y>400</y>
-      <w>2300</w>
-      <h>110</h>
+      <x>2177</x>
+      <y>1106</y>
+      <w>1610</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>2280.0;90.0;2280.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
@@ -766,10 +774,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>4550</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>3829</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -777,10 +785,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>5050</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>4179</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -788,10 +796,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>4310</x>
-      <y>650</y>
-      <w>30</w>
-      <h>850</h>
+      <x>3661</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>595</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
@@ -799,10 +807,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2260</x>
-      <y>1110</y>
-      <w>2170</w>
-      <h>60</h>
+      <x>2226</x>
+      <y>1603</y>
+      <w>1519</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>2150.0;40.0;2150.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
@@ -810,10 +818,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2220</x>
-      <y>1080</y>
-      <w>2730</w>
-      <h>90</h>
+      <x>2198</x>
+      <y>1582</y>
+      <w>1911</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>2710.0;70.0;2710.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
@@ -821,10 +829,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1670</x>
-      <y>1110</y>
-      <w>320</w>
-      <h>60</h>
+      <x>1813</x>
+      <y>1603</y>
+      <w>224</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0;300.0;10.0;300.0;40.0</additional_attributes>
@@ -832,10 +840,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2100</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>2114</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -843,10 +851,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1530</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>1715</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -854,10 +862,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>1253</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -865,10 +873,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>980</y>
-      <w>30</w>
-      <h>190</h>
+      <x>840</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -876,10 +884,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>1310</y>
-      <w>30</w>
-      <h>190</h>
+      <x>840</x>
+      <y>1743</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -887,10 +895,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>1310</y>
-      <w>30</w>
-      <h>190</h>
+      <x>1253</x>
+      <y>1743</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -898,10 +906,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1270</x>
-      <y>620</y>
-      <w>580</w>
-      <h>880</h>
+      <x>1533</x>
+      <y>1260</y>
+      <w>406</w>
+      <h>616</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;860.0;10.0;10.0;560.0;10.0</additional_attributes>
@@ -909,10 +917,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>580</y>
-      <w>780</w>
-      <h>30</h>
+      <x>1393</x>
+      <y>1232</y>
+      <w>546</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;760.0;10.0</additional_attributes>
@@ -920,10 +928,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>400</y>
-      <w>1620</w>
-      <h>110</h>
+      <x>840</x>
+      <y>1106</y>
+      <w>1134</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0;1600.0;10.0;1600.0;40.0</additional_attributes>
@@ -931,10 +939,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>650</y>
-      <w>30</w>
-      <h>190</h>
+      <x>840</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -942,10 +950,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>650</y>
-      <w>30</w>
-      <h>190</h>
+      <x>1253</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
@@ -953,10 +961,10 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1860</x>
-      <y>650</y>
-      <w>30</w>
-      <h>850</h>
+      <x>1946</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>595</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
@@ -964,12 +972,97 @@ OrderLineDBIF
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2100</x>
-      <y>650</y>
-      <w>30</w>
-      <h>190</h>
+      <x>2114</x>
+      <y>1281</y>
+      <w>21</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>1400</y>
+      <w>280</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+AddressDBIF
+--
+
+--
++ findByAddressID(addressID: int): Address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>203</x>
+      <y>1631</y>
+      <w>280</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>AddressDB
+--
+- findByAddressIdQ: String
+- findByAddressIdPreparedStatement: PreparedStatement
+--
++ buildObject(rs: ResultSet): Address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>56</x>
+      <y>1862</y>
+      <w>567</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>Address
+--
+- streetName: String
+- houseNumber: int
+- floorNumber: int
+- doorNumber: int
+- zipCode: String
+- cityName: String
+--
++ &lt;&lt;create&gt;&gt;Address(streetName: String, houseNumber: int, floorNumber: int, doorNumber: int, zipCode: String, cityName: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>1512</y>
+      <w>21</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>1743</y>
+      <w>21</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>1687</y>
+      <w>224</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;10.0</additional_attributes>
   </element>
 </diagram>
