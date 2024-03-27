@@ -16,4 +16,28 @@ public class OrderLine {
 		this.product = product;
 		this.quantity = quantity;
 	}
+
+	/**
+	* This method gets the Product of the OrderLine.
+	* @return Product The Product of the OrderLine.
+	*/
+	public Product getProduct() {
+		return product;
+	}
+
+	/**
+	* This method increases the quantity of the Product of the OrderLine.
+	* @param quantity The quantity to increase by.
+	*/
+	public void increaseQuantity(int quantity) {
+		this.quantity += quantity;
+	}
+
+	/**
+	* This method gets the quantity of the Product of the OrderLine.
+	* @return int The quantity of the Product of the OrderLine.
+	*/
+	public int getQuantity() {
+		return quantity;
+	}
 }
