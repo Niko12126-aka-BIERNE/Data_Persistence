@@ -2,7 +2,7 @@ use DPStore
 
 create table Employees(
 	employeeID int primary key identity(1, 1),
-	firstName varchar(20) not null
+	firstName varchar(20) not null,
 	lastName varchar(20) not null
 )
 
@@ -22,8 +22,8 @@ create table Addresses(
 
 create table Customers(
 	customerID int primary key identity(1, 1),
-	firstName varchar(20) not null
-	lastName varchar(20) not null
+	firstName varchar(20) not null,
+	lastName varchar(20) not null,
 	phone varchar(20) not null,
 	fk_addressID int foreign key references Addresses(addressID) not null
 )
