@@ -1,3 +1,5 @@
+import java.sql.SQLException;
+
 /**
 * This is the interface for OrderDB.
 * @author Nikolaj Andersen
@@ -8,5 +10,5 @@ public interface OrderDBIF {
 	* This method inserts an Order into the database.
 	* @param order The Order to insert.
 	*/
-	public void insertOrder(Order order);
+	public void insertOrder(Order order) throws SQLException;
 }

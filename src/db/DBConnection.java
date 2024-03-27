@@ -1,5 +1,8 @@
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
 * This singleton class is the Connection for the database.
@@ -21,7 +24,22 @@ public class DBConnection {
 	* This is the constructor for the DBConnection class.
 	*/
 	private DBConnection() {
-		//TODO: Add logic for this method!
+		String connectionString = String.format(
+					"jdbc:sqlserver://%s:%d;databaseName=%s;user=%s;password=%s;encrypt=false",
+					serverAddress,
+					serverPort,
+					dbName,
+					userName,
+					password
+				);
+		try {
+			Class.forName(driverClass);
+			connection = DriverManager.getConnection(connectionString);
+		} catch (ClassNotFoundException e) {
+			//TODO: Handle exception...
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
 	}
 
 	/**
@@ -29,29 +47,56 @@ public class DBConnection {
 	* @return DBConnection The instans of DBConnection.
 	*/
 	public static DBConnection getInstance() {
-		//TODO: Add logic for this method!
-		return null;
+		if (dbConnection == null) {
+			dbConnection = new DBConnection();
+		}
+
+		return dbConnection;
 	}
 
 	/**
 	* This method starts a transaction.
 	*/
 	public void startTransaction() {
-		//TODO: Add logic for this method!
+		try {
+			try {
+				connection.setAutoCommit(false);
+			} catch (SQLException e) {
+				//TODO: Handle exception...
+			} finally {
+				connection.setAutoCommit(true);
+			}
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
 	}
 
 	/**
 	* This method commits the transaction if one is started.
 	*/
 	public void commitTransaction() {
-		//TODO: Add logic for this method!
+		try {
+			connection.commit();
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
 	}
 
 	/**
 	* This method rolls back a transaction.
 	*/
 	public void rollbackTransaction() {
-		//TODO: Add logic for this method!
+		try {
+			try {
+				connection.rollback();
+			} catch (SQLException e) {
+				//TODO: Handle exception...
+			} finally {
+				connection.setAutoCommit(true);
+			}
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
 	}
 
 	/**
@@ -66,16 +111,32 @@ public class DBConnection {
 	* This method disconnects from the database.
 	*/
 	public void disconnect() {
-		//TODO: Add logic for this method!
+		try {
+			connection.close();
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
 	}
 
 	/**
 	* This method executes a prepared statement and returns its identity.
 	* @param preparedStatement The prepared statement to execute.
 	* @return int The identity.
+	* @throws SQLException 
 	*/
-	public int executeInsertWithIdentity(PreparedStatement preparedStatement) {
-		//TODO: Add logic for this method!
-		return -1;
+	public int executeInsertWithIdentity(PreparedStatement preparedStatement) throws SQLException {
+		int res = -1;
+		try {
+			res = preparedStatement.executeUpdate();
+			if(res > 0) {
+				ResultSet rs = preparedStatement.getGeneratedKeys();
+				rs.next();
+				res = rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw e;
+		}
+		return res;
 	}
 }
