@@ -19,7 +19,6 @@ public class ProductController {
 	* @return Product The Product found with the given productNumber.
 	*/
 	public Product findProductByProductNumber(int productNumber) {
-		//TODO: Add logic for this method!
-		return null;
+		return productDB.findByProductNumber(productNumber);
 	}
 }

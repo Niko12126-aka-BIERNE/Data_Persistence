@@ -19,7 +19,6 @@ public class CustomerController {
 	* @return Customer The Customer found with the given ID.
 	*/
 	public Customer findCustomerByCustomerID(int customerID) {
-		//TODO: Add logic for this method!
-		return null;
+		return customerDB.findByCustomerID(customerID);
 	}
 }

@@ -1,3 +1,5 @@
+import java.sql.SQLException;
+
 /**
 * This is the controller for the Order class.
 * @author Nikolaj Andersen
@@ -27,7 +29,12 @@ public class OrderController {
 	* @param employeeID The Employee who performed this action.
 	*/
 	public void createOrder(int employeeID) {
-		//TODO: Add logic for this method!
+		Employee employee = employeeController.findEmployeeByEmployeeID(employeeID);
+		if (employee == null) {
+			//TODO: throw new <Exeption to throw when object isnt found>
+		}
+
+		currOrder = new Order(employee);
 	}
 
 	/**
@@ -37,8 +44,15 @@ public class OrderController {
 	* @return boolean An indication whether or not this method succeded.
 	*/
 	public boolean addProductToOrder(int productNumber, int quantity) {
-		//TODO: Add logic for this method!
-		return false;
+		Product product = productController.findProductByProductNumber(productNumber);
+		if (product == null) {
+			//TODO: throw new <Exeption to throw when object isnt found>
+		}
+
+		OrderLine orderLine = new OrderLine(product, quantity);
+		currOrder.addOrderLine(orderLine);
+
+		return true; //TODO: maybe this returned boolean is not the way to go...
 	}
 
 	/**
@@ -47,8 +61,14 @@ public class OrderController {
 	* @return boolean An indication whether or not this method succeded.
 	*/
 	public boolean assignCustomerToOrder(int customerID) {
-		//TODO: Add logic for this method!
-		return false;
+		Customer customer = customerController.findCustomerByCustomerID(customerID);
+		if (customer == null) {
+			//TODO: throw new <Exeption to throw when object isnt found>
+		}
+
+		currOrder.assignCustomer(customer);
+
+		return true;
 	}
 
 	/**
@@ -56,7 +76,16 @@ public class OrderController {
 	* @return boolean An indication whether or not this method succeded.
 	*/
 	public boolean finishOrder() {
-		//TODO: Add logic for this method!
-		return false;
+		double totalPrice = currOrder.getTotalPrice();
+		Invoice invoice = invoiceController.createInvoice(totalPrice);
+		currOrder.assignInvoice(invoice);
+
+		try {
+			orderDB.insertOrder(currOrder);
+		} catch (SQLException e) {
+			//TODO: Handle exception...
+		}
+
+		return true;
 	}
 }

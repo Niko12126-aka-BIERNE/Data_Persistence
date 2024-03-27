@@ -10,7 +10,6 @@ public class InvoiceController {
 	* @return Invoice The created Invoice.
 	*/
 	public Invoice createInvoice(double paymentAmount) {
-		//TODO: Add logic for this method!
-		return null;
+		return new Invoice(null, paymentAmount, false);
 	}
 }

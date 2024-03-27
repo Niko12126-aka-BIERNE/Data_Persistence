@@ -19,7 +19,6 @@ public class EmployeeController {
 	* @return Employee The Employee found with the given ID.
 	*/
 	public Employee findEmployeeByEmployeeID(int employeeID) {
-		//TODO: Add logic for this method!
-		return null;
+		return employeeDB.findByEmployeeID(employeeID);
 	}
 }
